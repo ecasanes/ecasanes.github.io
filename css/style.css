@@ -50,6 +50,10 @@ body{
 	color:#fff;
 }
 
+.share-button{
+
+}
+
 
 .twitter{
 	color:#fff;
@@ -144,20 +148,21 @@ body{
 }
 
 .intro-content .title-img{
+  width:100px;
 }
 
 .intro-content h2{
 	font-weight:800;
 	font-size:32px;
-  background:url(../images/github.png) no-repeat;
-  background-size:38px;
-  padding-left:40px;
 }
+
+
+
+
 
 .intro-content p{
 	font-weight:normal;
 	font-size:20px;
-  padding-left:42px;
 }
 
 
@@ -414,6 +419,31 @@ footer{
 }
 
 
+.bg.left-icon{
+
+}
+
+.bg.left-icon.small.code{
+  background:url(../images/code-01.png) no-repeat;
+  background-size:38px;
+}
+
+.bg.left-icon.small.laptop{
+  background:url(../images/laptop-01.png) no-repeat;
+  background-size:38px;
+}
+
+.bg.left-icon.small.life{
+  background:url(../images/life-01.png) no-repeat;
+  background-size:38px;
+}
+
+.bg.left-icon.small.game{
+  background:url(../images/game-01.png) no-repeat;
+  background-size:38px;
+}
+
+
 
 
 
@@ -430,6 +460,7 @@ footer{
 
 .aligncenter{
 	text-align:center;
+  vertical-align:middle;
 }
 
 
@@ -796,6 +827,12 @@ footer{
 
 
 
+@media (max-width:400px){
+  .intro-content .xs-center{
+    text-align:center;
+  }
+
+}
 
 
 

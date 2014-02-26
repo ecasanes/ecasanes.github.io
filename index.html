@@ -68,11 +68,12 @@
                     </li>
                     
 					<li>
-						<div id="header-social" class="btn-group">
+						<div id="header-social" class='share-button share-button-left'></div>
+						<!--<div id="header-social" class="btn-group">
 							<a href="signup.html" class="btn btn-primary"><i class="fa fa-facebook fa-lg"></i></a>
 							<a href="signup.html" class="btn twitter"><i class="fa fa-twitter fa-lg"></i></a>
 							<a href="login.html" class="btn btn-danger"><i class="fa fa-google-plus fa-lg"></i></a>
-						</div>
+						</div>-->
 					</li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
@@ -85,17 +86,35 @@
 			
 			<div class="row">
 				<div class="col-xs-12 col-sm-8">
-					<div class="intro-content">
-						<h2>Web Developer</h2>
-						<p>I create web pages and web-based systems based on the client's needs.</p>
+					<div class="row intro-content ">
+						<div class="col-xs-12 col-sm-2 aligncenter">
+							<img class="title-img" src="images/code-01.png" />
+						</div>
+						<div class="col-xs-12 col-sm-10 xs-center">
+							<h2 class="">Web Developer</h2>
+							<p>I create web pages and web-based systems based on the client.</p>
+							<a class="btn btn-flat btn-orange uppercase">View Github Projects</a>
+						</div>
 		        	</div>
-		        	<div class="intro-content">
-						<h2>Tech-Geek / life hacker</h2>
-						<p>I've always wanted to learn and discover new things everyday.</p>
+		        	<div class="row intro-content ">
+		        		<div class="col-xs-12 col-sm-2 aligncenter">
+							<img class="title-img" src="images/life-01.png" />
+						</div>
+						<div class="col-xs-12 col-sm-10 xs-center">
+							<h2 class="">Tech-Geek / life-hacker</h2>
+							<p>I've always wanted to learn and discover new things everyday.</p>
+							<a class="btn btn-flat btn-green uppercase">Visit my favorite blog</a>
+						</div>
 		        	</div>
-		        	<div class="intro-content">
-						<h2>Gamer</h2>
-						<p>Gaming is one of the key factor I am interested in technology.</p>
+		        	<div class="row intro-content">
+						<div class="col-xs-12 col-sm-2 aligncenter">
+							<img class="title-img" src="images/game-01.png" />
+						</div>
+						<div class="col-xs-12 col-sm-10 xs-center">
+							<h2 class="">Gamer</h2>
+							<p>Gaming is one of the key factor I am interested in technology.</p>
+							<a class="btn btn-flat btn-black uppercase">Add me on Steam</a>
+						</div>
 		        	</div>
 				</div>
 				<!--<div class="hidden-xs col-sm-8">
@@ -337,8 +356,10 @@
 
     <script src="js/jquery-2.0.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/responsiveslides.min.js"></script>
+    <script src="js/share.min.js"></script>
     <script>
+	    
+	    /* for masonry */
 	    
 	    /*
 	    var container = document.querySelector('#feature-slider .extra-content');
@@ -348,11 +369,12 @@
 		  itemSelector: '.item'
 		});
 
-*/
+		*/
 
 
 	    jQuery(document).ready(function () {
 
+	    	/*
 	      	$(".rslides").responsiveSlides({
 		        auto: true,
 		        pager: true,
@@ -360,15 +382,17 @@
 		        speed: 500,
 		        timeout: 10000,
 		        namespace: "centered-btns"
-		        /*,
-		        before: function () {
-		          $('.events').append("<li>before event fired.</li>");
-		        },
-		        after: function () {
-		          $('.events').append("<li>after event fired.</li>");
-		        }
-		        */
 		     });
+			*/
+
+	      	$('.share-button-left').share({
+		        title: 'Share Button Multiple Instantiation Test',
+		        image: 'http://carrot.is/img/fb-share.jpg',
+		        app_id: '602752456409826',
+		        background: 'rgba(255,255,255,.5)',
+		        color: '#3B2B45',
+		        flyout: 'bottom left'
+		      });
 
 	    });
 	</script>
