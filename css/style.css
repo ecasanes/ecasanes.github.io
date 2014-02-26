@@ -149,6 +149,7 @@ body{
 
 .intro-content .title-img{
   width:100px;
+  padding-top:20px;
 }
 
 .intro-content h2{
@@ -214,6 +215,7 @@ body{
 	width:250px;
 	margin:auto auto;
 	margin-bottom:20px;
+  padding-top:20px;
 }
 
 #bundles{
