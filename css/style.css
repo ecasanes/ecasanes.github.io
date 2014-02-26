@@ -33,7 +33,6 @@ body{
 }
 
 #branding{
-	padding-top:5px;
 }
 
 #branding h1{
@@ -61,7 +60,6 @@ body{
 
 #headline{
 	margin:70px 0 0 0;
-	background:transparent url('../images/escheresque.png') top center fixed;
 	text-align:center;
 	padding:30px 0 30px 0;
 }
@@ -136,24 +134,37 @@ body{
 
 
 
-#feature-slider .intro-content{
+.intro-content{
+  text-align:left;
+  padding-top:10px;
 }
 
-#feature-slider .intro-content h2{
+.intro-content .title{
+
+}
+
+.intro-content .title-img{
+}
+
+.intro-content h2{
 	font-weight:800;
 	font-size:32px;
+  background:url(../images/github.png) no-repeat;
+  background-size:38px;
+  padding-left:40px;
 }
 
-#feature-slider .intro-content h3{
+.intro-content p{
 	font-weight:normal;
 	font-size:20px;
+  padding-left:42px;
 }
 
 
-#feature-slider .extra-content{
+.extra-content{
 }
 
-#feature-slider .extra-content .item{
+.item{
 	border:1px solid #ccc;
 	width:150px;
 	height:auto;
@@ -163,11 +174,11 @@ body{
 	float:left;
 }
 
-#feature-slider .extra-content .item.extra-fit{
+.item.extra-fit{
 	width:80px;
 }
 
-#feature-slider .extra-content .item.fit{
+.item.fit{
 	width:100px;
 }
 
@@ -176,21 +187,21 @@ body{
 	width:120px;
 }
 
-#feature-slider .extra-content .item.medium{
+.item.medium{
 	width:150px;
 }
 
-#feature-slider .extra-content .item.large{
+.item.large{
 	width:250px;
 }
 
-#feature-slider .extra-content .item.extra-large{
+.item.extra-large{
 	width:300px;
 }
 
 
 #my-big-image{
-	width:80%;
+	width:300px;
 	margin:auto auto;
 }
 
@@ -221,31 +232,18 @@ body{
 }
 
 
-
-
-
-
-
-
-
-.hero-unit {
+footer{
+  padding:20px 0 10px 0;
 }
 
 
-.hero-unit h1 {
-  font-size: 46px;
-  font-weight: normal;
-  line-height: 1.3;
-  color: #3E4956;
-}
-.hero-unit p.lead {
-  font-size: 22px;
-  line-height: 1.5;
-  color: #999;
-}
-.hero-unit a.btn {
-  margin-top: 15px;
-}
+
+
+
+
+
+
+
 
 
 
@@ -326,83 +324,93 @@ body{
 /*-------------------------------------------------------------------------*/
 /* 01. Background Color */
 /*-------------------------------------------------------------------------*/
-.bg-color h1,
-.bg-color h2,
-.bg-color h3,
-.bg-color h4,
-.bg-color h5,
-.bg-color h6 {
+.bg h1,
+.bg h2,
+.bg h3,
+.bg h4,
+.bg h5,
+.bg h6 {
   color: #fff;
 }
-.bg-color p {
+.bg p {
   color: rgba(255, 255, 255, 0.8);
 }
-.bg-color a {
+.bg a {
   color: rgba(255, 255, 255, 0.8);
 }
-.bg-color.orange {
+.bg.orange {
   background: #f05444;
   color: #fff;
 }
-.bg-color.green {
+.bg.green {
   background: #4fa950;
   color: #fff;
 }
-.bg-color.blue {
+.bg.blue {
   background: #06a9ef;
   color: #fff;
 }
-.bg-color.dark-grey {
+.bg.cool-black {
   background: #333333;
   color: #fff;
 }
-.bg-color.grey {
+.bg.grey {
   background: #888888;
   color: #fff;
 }
-.bg-color.yellow {
+.bg.yellow {
   background: #ffa93c;
   color: #fff;
 }
-.bg-color.pink {
+.bg.pink {
   background: #d8335b;
   color: #fff;
 }
-.bg-color.black {
+.bg.black {
   background: #000000;
   color: #fff;
 }
-.bg-color.red {
+.bg.red {
   background: #ce483d;
   color: #fff;
 }
-.bg-color.darker-bg {
+.bg.darker-bg {
   background: rgba(0, 0, 0, 0.1);
   color: #fff;
 }
-.bg-color.silver {
+.bg.silver {
   background: #bdc3c7;
   color: #fff;
 }
-.bg-color.light-grey {
+.bg.light-grey {
   background: #f5f5f5;
 }
-.bg-color.light-grey p {
+.bg.light-grey p {
   color: #666;
 }
-.bg-color.light-grey h1,
-.bg-color.light-grey h2,
-.bg-color.light-grey h3,
-.bg-color.light-grey h4,
-.bg-color.light-grey h5,
-.bg-color.light-grey h6 {
+.bg.light-grey h1,
+.bg.light-grey h2,
+.bg.light-grey h3,
+.bg.light-grey h4,
+.bg.light-grey h5,
+.bg.light-grey h6 {
   color: #333;
 }
-.bg-color .hero-unit h1 {
-  color: #ffffff;
+
+.bg.echeresque {
+  background:transparent url('../images/escheresque.png') top center fixed;
 }
-.bg-color .hero-unit p.lead {
-  color: rgba(255, 255, 255, 0.8);
+
+.bg.echeresque p {
+  color: #666;
+}
+.bg.echeresque h1,
+.bg.echeresque h2,
+.bg.echeresque h3,
+.bg.echeresque h4,
+.bg.echeresque h5,
+.bg.echeresque h6 {
+  color: #333;
 }
 
 
