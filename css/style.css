@@ -404,11 +404,16 @@ footer{
   color: #333;
 }
 
+.bg.struckaxiom{
+  background:transparent url('../images/struckaxiom.png') top center fixed; 
+}
+
 .bg.echeresque {
   background:transparent url('../images/escheresque.png') top center fixed;
 }
 
-.bg.echeresque p {
+.bg.echeresque p,
+.bg.struckaxiom p{
   color: #666;
 }
 .bg.echeresque h1,
@@ -416,7 +421,13 @@ footer{
 .bg.echeresque h3,
 .bg.echeresque h4,
 .bg.echeresque h5,
-.bg.echeresque h6 {
+.bg.echeresque h6, 
+.bg.struckaxiom h1,
+.bg.struckaxiom h2,
+.bg.struckaxiom h3,
+.bg.struckaxiom h4, 
+.bg.struckaxiom h5,
+.bg.struckaxiom h6 {
   color: #333;
 }
 
