@@ -479,7 +479,8 @@ footer {
   color: #bbbbbb; }
 
 .photo-box {
-  margin: 0 0 30px 0; }
+  margin: 0 0 30px 0;
+  border: 1px solid #ccc; }
   .photo-box .image-wrap img {
     width: 100%;
     height: 200px; }
@@ -501,7 +502,8 @@ footer {
     height: 150px;
     /* overflow: hidden;
             white-space: nowrap;
-            text-overflow: ellipsis; */ }
+            text-overflow: ellipsis; */
+    border-top: 1px solid #ccc; }
     .photo-box .description .title {
       font-weight: 600;
       font-size: 14px;
