@@ -36,6 +36,7 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/responsiveslides.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -47,6 +48,7 @@
 
 	<!-- Custom Style -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet" />
 
   </head>
   <body>
@@ -140,13 +142,13 @@
 				<div class="col-xs-12 col-sm-4 text-center">
 					<div class="row">
 						<div class="col-xs-12 text-center">
-							<img id="my-big-image" class="hidden-xs img-responsive" src="images/ecasanes-aside.png" />
-							<img id="my-small-image" class="visible-xs hidden-sm hidden-md hidden-lg img-responsive img-circle" src="images/ernest-mobile.jpeg" />
+							<!--<img id="my-big-image" class="hidden-xs img-responsive" src="images/ecasanes-aside.png" />-->
+							<img id="my-small-image" class=" img-responsive img-circle" src="images/ernest-mobile.jpeg" />
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-xs-12 text-center">
-							<a class="btn btn-flat btn-orange btn-lg uppercase" href="http://ph.linkedin.com/pub/ernest-oliver-casanes/35/794/258/" target="_blank">View Resume</a>
+							<a class="btn btn-flat btn-blue btn-lg uppercase" href="http://ph.linkedin.com/pub/ernest-oliver-casanes/35/794/258/" target="_blank">View LinkedIn Profile</a>
 						</div>
 					</div>
 				</div>
@@ -189,10 +191,107 @@
 	</section>
 
 
-
-
-
 	<section class="content-group bg light-grey">
+		<div class="container">
+	        <div class="row">
+	            <div class="col-xs-12">
+					
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2>My Projects</h2>
+						</div>
+					</div>
+
+	                <div class="instagram-content">
+	                    
+	                    <div class="row photos-wrap">
+	                    	<!-- Instafeed target div -->
+	                    	<div id="instafeed"></div>
+	                    	<!-- The following HTML will be our template inside instafeed -->
+		                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		                        <div class="photo-box">
+		                            <div class="image-wrap">
+		                                <img src="images/projects/fire-1.png">
+		                            </div>
+		                            <div class="description">
+		                            	<p class="title">UK Fire Safety Ltd. Website</p>
+		                                <span>A Wordpress website built based on 1 PSD design. Implemented a custom Wordpress Theme based on the design.</span>
+		                                <p class="text-right">
+											<a class="desc-link" href="images/projects/fire-1.png" data-lightbox="fire" data-title="My caption">View Screenshots</a>
+											<a class="hidden" href="images/projects/fire-2.png" data-lightbox="fire"></a>
+											<a class="hidden" href="images/projects/fire-3.png" data-lightbox="fire"></a>
+		                                </p>
+		                            </div>
+		                        </div>
+		                    </div> <!-- end project -->
+
+		                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		                        <div class="photo-box">
+		                            <div class="image-wrap">
+		                                <img src="images/projects/boxdice-1.png">
+		                            </div>
+		                            <div class="description">
+		                            	<p class="title">Box+Dice Website</p>
+		                                <span>A site built using an existing PSD design. Mobile responsive site and customized header and navigation menu.</span>
+		                                <p class="text-right">
+											<a class="desc-link" href="images/projects/boxdice-1.png" data-lightbox="boxdice" data-title="My caption">View Screenshots</a>
+											<a class="hidden" href="images/projects/boxdice-2.png" data-lightbox="boxdice"></a>
+											<a class="hidden" href="images/projects/boxdice-3.png" data-lightbox="boxdice"></a>
+											<a class="hidden" href="images/projects/boxdice-4.png" data-lightbox="boxdice"></a>
+											<a class="hidden" href="images/projects/boxdice-5.png" data-lightbox="boxdice"></a>
+											<a class="hidden" href="images/projects/boxdice-6.png" data-lightbox="boxdice"></a>
+											<a class="hidden" href="images/projects/boxdice-7.png" data-lightbox="boxdice"></a>
+		                                </p>
+		                            </div>
+		                        </div>
+		                    </div> <!-- end project -->
+
+		                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		                        <div class="photo-box">
+		                            <div class="image-wrap">
+		                                <img src="images/projects/ogs-1.png">
+		                            </div>
+		                            <div class="description">
+		                            	<p class="title">Online Grading System</p>
+		                                <span>The system enables teachers to input grades online and students the capability to view it. It can also print report cards per student.</span>
+		                                <p class="text-right">
+											<a class="desc-link" href="images/projects/ogs-1.png" data-lightbox="ogs" data-title="My caption">View Screenshots</a>
+											<a class="hidden" href="images/projects/ogs-2.png" data-lightbox="ogs"></a>
+											<a class="hidden" href="images/projects/ogs-3.png" data-lightbox="ogs"></a>
+											<a class="hidden" href="images/projects/ogs-4.png" data-lightbox="ogs"></a>
+											<a class="hidden" href="images/projects/ogs-5.png" data-lightbox="ogs"></a>
+		                                </p>
+		                            </div>
+		                        </div>
+		                    </div> <!-- end project -->
+
+		                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		                        <div class="photo-box">
+		                            <div class="image-wrap">
+		                                <img src="images/projects/ilo-1.png">
+		                            </div>
+		                            <div class="description">
+		                            	<p class="title">Post Calamity Database Project</p>
+		                                <span>The system provides a tabular and custom graphical statistics based on the data gathered after the calamity.</span>
+		                                <p class="text-right">
+											<a class="desc-link" href="images/projects/ilo-1.png" data-lightbox="ilo" data-title="My caption">View Screenshots</a>
+											<a class="hidden" href="images/projects/ilo-2.png" data-lightbox="ilo"></a>
+											<a class="hidden" href="images/projects/ilo-3.png" data-lightbox="ilo"></a>
+											<a class="hidden" href="images/projects/ilo-4.png" data-lightbox="ilo"></a>
+											<a class="hidden" href="images/projects/ilo-5.png" data-lightbox="ilo"></a>
+		                                </p>
+		                            </div>
+		                        </div>
+		                    </div> <!-- end project -->
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+
+
+	<section class="content-group bg cool-black">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -232,6 +331,8 @@
 		</div>
 	</section>
 
+	
+
 
 
 	
@@ -254,6 +355,7 @@
     <script src="js/jquery-2.0.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/share.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
     <script>
     	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
     </script>
