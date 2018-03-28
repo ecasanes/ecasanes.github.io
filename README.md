@@ -1,6 +1,8 @@
 ecasanes.github.io
 ==================
 
+[![Join the chat at https://gitter.im/ecasanes/ecasanes.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ecasanes/ecasanes.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is my official github profile page.
 
 
