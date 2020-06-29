@@ -14,6 +14,7 @@ import ImageErnestProfile from "../components/image-components/image-ernest-prof
 
 const IndexPage = () => (
   <Layout>
+    <SEO title="Home"/>
     {/* <SEO title="Home" />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
