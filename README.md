@@ -43,6 +43,6 @@ just wanna share cool stuff
 
 ### Gatsby Resources
 
-Gatsby-image - https://www.youtube.com/watch?v=wTQtTjovDa0
-Fetching Dynamic Data - https://www.youtube.com/watch?v=hC9vVZKLKaw
-Gatsby Quick Start - https://www.youtube.com/watch?v=J01X-7NzozQ
+* Gatsby-image - https://www.youtube.com/watch?v=wTQtTjovDa0
+* Fetching Dynamic Data - https://www.youtube.com/watch?v=hC9vVZKLKaw
+* Gatsby Quick Start - https://www.youtube.com/watch?v=J01X-7NzozQ
