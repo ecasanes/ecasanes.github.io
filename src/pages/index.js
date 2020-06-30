@@ -11,65 +11,33 @@ import ImageGameLogo from "../components/image-components/image-game-logo"
 import ImageSourthernLighting from "../components/image-components/image-southern-lighting"
 import ImageInventorySystem from "../components/image-components/image-inventory-system"
 import ImageErnestProfile from "../components/image-components/image-ernest-profile"
+import ImageCode from "../components/image-components/image-code"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home"/>
-    {/* <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
-    <section id="headline" className="featured bg echeresque">
+    
+    <section id="headline" className="featured">
       <div className="container">
 
         <div className="row">
           <div className="col-xs-12 col-sm-8">
             <div className="row intro-content ">
-              <div className="col-xs-12 col-sm-2 text-center">
-                {/* <img className="title-img" src="../images/code-01.png" /> */}
-                <ImageCodeLogo />
-              </div>
+              
               <div className="col-xs-12 col-sm-10 xs-center">
-                <h2 className="">Web Developer</h2>
-                <p>I create web pages and web-based systems based on the client.</p>
+                <h2 className="">Software Engineer</h2>
+                <p>Provide solutions to the client by designing, building and testing quality software. 
+                  Specialized in Frontend Development with experience in Angular, React, NodeJS.</p>
                 <a className="btn btn-flat btn-orange uppercase" href="http://github.com/ecasanes">View Github Projects</a>
               </div>
             </div>
-            <div className="row intro-content ">
-              <div className="col-xs-12 col-sm-2 text-center">
-                {/* <img className="title-img" src="../images/life-01.png" /> */}
-                <ImageLifeLogo />
-              </div>
-              <div className="col-xs-12 col-sm-10 xs-center">
-                <h2 className="">Tech-Geek / life-hacker</h2>
-                <p>I've always wanted to learn and discover new things everyday.</p>
-                <a className="btn btn-flat btn-green uppercase" href="http://lifehacker.com" target="_blank">Visit my favorite blog</a>
-              </div>
-            </div>
-            <div className="row intro-content">
-              <div className="col-xs-12 col-sm-2 text-center">
-                {/* <img className="title-img" src="../images/game-01.png" /> */}
-                <ImageGameLogo />
-              </div>
-              <div className="col-xs-12 col-sm-10 xs-center">
-                <h2 className="">Gamer</h2>
-                <p>Gaming is one of the key factor I am interested in technology.</p>
-                <a className="btn btn-flat btn-black uppercase" href="http://steamcommunity.com/id/ecasanes" target="_blank">Add me on Steam</a>
-              </div>
-            </div>
+            
           </div>
 
           <div className="col-xs-12 col-sm-4 text-center">
             <div className="row">
               <div className="col-xs-12 text-center">
-                {/* <!--<img id="my-big-image" className="hidden-xs img-responsive" src="../images/ecasanes-aside.png" />--> */}
-                {/* <img id="my-small-image" className=" img-responsive img-circle" src="../images/ernest-mobile.jpeg" /> */}
-                <ImageErnestProfile />
+                <ImageCode />
               </div>
             </div>
             <div className="row">

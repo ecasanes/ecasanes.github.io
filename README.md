@@ -12,7 +12,12 @@ This is my official github profile page.
 * SVG and PNG Free Illustrations - https://undraw.co/search
 * Random Placeholder Image - https://picsum.photos/
 
+2020 Font Choices
+=================
 
+* Muli - Google Font
+* Camphor
+* 
 
 just wanna share cool stuff
 ===========================

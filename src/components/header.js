@@ -5,7 +5,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   // < !--Fixed navbar -->
   <>
-    <nav id="header-nav" className="navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <nav id="header-nav" className="bg minimalist-black navbar-default navbar-fixed-top" role="navigation">
       <div className="container">
         {/* <!-- Brand and toggle get grouped for better mobile display --> */}
         <div className="navbar-header">
