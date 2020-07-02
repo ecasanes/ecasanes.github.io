@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => (
               <a href="http://ecasanes.github.io/">Home</a>
             </li>
             <li>
-              <a target="_blank" rel="noreferrer" href="https://ph.linkedin.com/pub/ernest-oliver-casanes/35/794/258/">Resume</a>
+              <a target="_blank" rel="noreferrer" href="https://ph.linkedin.com/pub/ernest-oliver-casanes/35/794/258/">LinkedIn</a>
             </li>
             <li>
               <a href="https://github.com/ecasanes">Github</a>

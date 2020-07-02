@@ -14,8 +14,6 @@ import Img from "gatsby-image"
  */
 
 const ImageCodeLogo = (props) => {
-
-  console.log('the image props: ', props);
   
   const { className } = props;
 
@@ -40,8 +38,6 @@ const ImageCodeLogo = (props) => {
       }
     }
   `)
-
-  console.log('image data: ', data);
 
   return <Img fluid={data.file.childImageSharp.fluid} />
 }

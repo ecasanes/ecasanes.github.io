@@ -52,6 +52,7 @@ body {
   padding: 30px 0 30px 0;
 }
 
+
 #feature-slider {
   text-align: left;
   padding-top: 10px;
@@ -327,6 +328,14 @@ footer {
   transition: All 0.5s ease;
 }
 
+.btn.btn-flat.txt-grey{
+  color: #e8e8e8;
+}
+
+.btn.btn-flat.txt-grey:hover{
+  color: #fff;
+}
+
 .btn.btn-flat:hover {
   background: rgba(0, 0, 0, 0.6);
 }
@@ -393,11 +402,11 @@ footer {
 }
 
 .btn.btn-flat.btn-bg-darker {
-  background: rgba(0, 0, 0, 0.4);
+  background: #313131;
 }
 
 .btn.btn-flat.btn-bg-darker:hover {
-  background: rgba(0, 0, 0, 0.6);
+  background: #0d0d0d;
 }
 
 .btn.btn-flat.btn-dark-grey {

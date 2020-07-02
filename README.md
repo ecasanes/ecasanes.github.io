@@ -11,6 +11,7 @@ This is my official github profile page.
 
 * SVG and PNG Free Illustrations - https://undraw.co/search
 * Random Placeholder Image - https://picsum.photos/
+* Icon Finder - https://www.iconfinder.com/
 
 2020 Font Choices
 =================
