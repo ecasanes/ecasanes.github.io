@@ -4,8 +4,6 @@ import Img from "gatsby-image"
 import {ReactComponent as CodeSVG} from "./../../images/code.svg"
 
 const ImageAngularLogo = (props) => {
-
-  console.log('the image props: ', props);
   
   const { className } = props;
 
@@ -20,8 +18,6 @@ const ImageAngularLogo = (props) => {
       }
     }
   `)
-
-  console.log('image data: ', data);
 
   const childImageSharp = data.file.childImageSharp;
 

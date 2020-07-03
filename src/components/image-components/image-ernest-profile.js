@@ -3,8 +3,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 const ImageErnestProfile = (props) => {
-
-  console.log('the image props: ', props);
   
   const { className } = props;
 
@@ -19,8 +17,6 @@ const ImageErnestProfile = (props) => {
       }
     }
   `)
-
-  console.log('image data: ', data);
 
   return <Img className="img-circle" fluid={data.file.childImageSharp.fluid} />
 }

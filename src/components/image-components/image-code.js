@@ -15,8 +15,6 @@ import {ReactComponent as CodeSVG} from "./../../images/code.svg"
  */
 
 const ImageCode = (props) => {
-
-  console.log('the image props: ', props);
   
   const { className } = props;
 
@@ -41,8 +39,6 @@ const ImageCode = (props) => {
       }
     }
   `)
-
-  console.log('image data: ', data);
 
   const childImageSharp = data.file.childImageSharp;
 
