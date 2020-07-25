@@ -1,12 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ImageSourthernLighting from "../components/image-components/image-southern-lighting"
-import ImageInventorySystem from "../components/image-components/image-inventory-system"
 import ImageCode from "../components/image-components/image-code"
 
 import ImageReactLogo from "../components/image-components/image-react-logo"
@@ -16,6 +14,10 @@ import ImageSassLogo from "../components/image-components/image-sass-logo"
 import ImageBoxdice from "../components/image-components/image-boxdice";
 import ImageFire from "../components/image-components/image-fire";
 import ImageIlo from "../components/image-components/image-ilo";
+import ImageHobbyTrekking from "../components/image-components/image-hobbies-trekking";
+import ImageHobbyVideography from "../components/image-components/image-hobbies-videography";
+import ImageHobbyPassion from "../components/image-components/image-hobbies-passion";
+//import MyForm from "../components/form";
 
 const IndexPage = () => (
   <Layout>
@@ -25,7 +27,7 @@ const IndexPage = () => (
       <div className="container">
 
         <div className="row">
-          <div className="col-xs-12 col-sm-8">
+          <div className="col-xs-12 col-sm-7 col-md-7">
             <div className="row intro-content ">
               
               <div className="col-xs-12 col-sm-10 xs-center">
@@ -38,7 +40,7 @@ const IndexPage = () => (
             
           </div>
 
-          <div className="col-xs-12 col-sm-4 text-center">
+          <div className="col-xs-12 col-sm-5 col-md-5 text-center">
             <div className="row">
               <div className="col-xs-12 text-center">
                 <ImageCode />
@@ -93,6 +95,33 @@ const IndexPage = () => (
       </div>
       
     </section>
+
+    <section id="hobbies-showcase" className="showcase" style={{padding: '30px 0 70px 0'}}>
+      <div className="container">
+        <div className="col-xs-12">
+          <h2 style={{textAlign: 'center', marginBottom: '50px'}}>Interests and Hobbies</h2>
+        </div>
+      </div>
+      <div className="container">
+        <div className="col-xs-12 col-sm-4">
+          <ImageHobbyTrekking/>
+          <p className="hobby-title">Trekking</p>
+        </div>
+        <div className="col-xs-12 col-sm-4">
+          <ImageHobbyVideography/>
+          <p className="hobby-title">Videography</p>
+        </div>
+        <div className="col-xs-12 col-sm-4">
+          <ImageHobbyPassion/>
+          <p className="hobby-title">Passion for Technology</p>
+        </div>
+      </div>
+      
+    </section>
+
+    {/* <section id="lets-talk">
+      <MyForm/>
+    </section> */}
 
     
   </Layout>

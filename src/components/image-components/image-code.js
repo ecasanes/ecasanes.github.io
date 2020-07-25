@@ -1,7 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import {ReactComponent as CodeSVG} from "./../../images/code.svg"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -16,7 +15,6 @@ import {ReactComponent as CodeSVG} from "./../../images/code.svg"
 
 const ImageCode = (props) => {
   
-  const { className } = props;
 
   // query {
   //   placeholderImage: file(relativePath: { eq: "code-01.png" }) {

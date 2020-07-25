@@ -1,12 +1,10 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import {ReactComponent as CodeSVG} from "./../../images/code.svg"
 
 const ImageIlo = (props) => {
   
-  const { className } = props;
-
+ 
   const data = useStaticQuery(graphql`
     query {
       file(relativePath: {eq: "projects/ilo-2.png"}) {

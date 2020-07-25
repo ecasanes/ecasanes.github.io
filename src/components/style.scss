@@ -1,0 +1,339 @@
+#header-nav {
+  padding: 3px 0 3px 0;
+
+  .navbar-toggle{
+    &:hover, &:active, &:focus{
+      background:none;
+    }
+
+    padding:0;
+    width:40px;
+    height:30px;
+    
+    .icon-bar{
+      margin-left:8px;
+      animation:clear 1s forwards;
+    }
+  }
+
+  &.mobile-menu-active {
+
+    .navbar-toggle {
+
+      .icon-bar:nth-child(2) {
+        //animation: iconBarCross1 0.3s ease forwards;
+      }
+
+      .icon-bar:nth-child(3) {
+        //animation: fadeOut 0.3s ease forwards;
+      }
+
+      .icon-bar:nth-child(4) {
+        //animation: iconBarCross2 0.3s ease forwards;
+      }
+    }
+
+  }
+
+
+
+}
+
+#branding {
+  color: #fff;
+  position:relative;
+
+  img {
+    height: 40px;
+  }
+
+  .logo-container{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    margin-top:-15px;
+    margin-left:5px;
+    border-radius:6px;
+  }
+
+  .heading{
+    position:relative;
+    display: inline-block;
+    top:-15px;
+  }
+}
+
+#mainnav {
+
+  @media screen and (max-width:768px) {
+
+    &.not-clicked {
+      transform: scaleY(0);
+      max-height: 0;
+
+      ul {
+        transform: scaleY(0);
+      }
+    }
+
+    &.navbar-inactive {
+      animation:
+        blindsOut 0.6s cubic-bezier(.3, .6, .7, .76) forwards,
+        topScaleOut 0.8s ease-out forwards;
+    }
+
+    &.navbar-active {
+      animation:
+        blindsIn 0.8s cubic-bezier(.3, .6, .7, .76) forwards,
+        topScaleIn 0.4s cubic-bezier(.3, .6, .7, .76) forwards;
+    }
+
+  }
+
+  text-transform: uppercase;
+  border-top:none;
+
+  li {
+    &>a {
+      position: relative;
+      color: #ffffff;
+      font-weight: 400;
+      margin: 10px 10px;
+      padding: 5px 10px;
+      border-radius: 14px;
+      transform: scaleX(1);
+
+      // &:before{
+      //   content:'';
+      //   position:absolute;
+      //   width:100%;
+      //   background:#ffffff;
+      //   left:0;
+      //   bottom:0;
+      //   padding:15px 0;
+      //   border-radius:14px;
+      //   transform:scale(0);
+      // }
+
+      &.btn {
+        color: #fff;
+        font-weight: normal;
+      }
+
+      &:hover,
+      &:active {
+        background-color: #fff;
+        color: #000;
+        font-weight: 400;
+        padding: 5px 10px !important;
+        border-radius: 16px;
+        transform: scale(1);
+        transition: all 0.5s ease;
+
+        // &:before{
+        //   transform:scale(1);
+        //   transition: all 0.5s ease;
+
+        // }
+
+      }
+    }
+  }
+
+}
+
+#headline {
+  margin: 70px 0 0 0;
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+
+
+#feature-slider {
+  text-align: left;
+  padding-top: 10px;
+
+  .log {
+    width: 150px;
+    padding: 10px;
+  }
+
+  .rslides {
+    height: 450px;
+  }
+}
+
+
+
+#hobbies-showcase {
+  .hobby-title {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+
+.intro-content {
+  text-align: left;
+  padding-top: 10px;
+
+  h2 {
+    font-weight: 800;
+    font-size: 32px;
+  }
+
+  p {
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  .title-img {
+    width: 100px;
+    padding-top: 20px;
+  }
+}
+
+.gatsby-image-wrapper {
+
+  animation: fadeIn 1s;
+
+  // &:hover {
+  //   animation: pulse 2s ease-in-out infinite;
+  // }
+
+}
+
+.btn {
+
+  &:hover {
+    border-radius: 10px;
+    transform: scale(1.04);
+    transition: all 0.5s ease-out;
+  }
+
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    // resets the element back to the original state
+    // opacity:1;
+    // transform: translateY(0)
+  }
+}
+
+/*
+
+USAGE of clear
+
+declare opacity/transform to the main element
+then add
+animation: clear 0.5s forwards;
+
+forwards - retain the last keyframe of animation
+
+*/
+
+@keyframes clear {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pulse {
+
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: scale(1.05);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+
+}
+
+@keyframes blindsIn {
+
+  from {
+    max-height: 0;
+  }
+
+  to {
+    max-height: auto;
+  }
+}
+
+@keyframes blindsOut {
+
+  from {
+    max-height: auto;
+  }
+
+  to {
+    max-height: 0;
+  }
+}
+
+@keyframes topScaleIn {
+
+  from {
+    transform: scaleY(0);
+    transform-origin: top center;
+  }
+
+  to {
+    transform: scaleY(1);
+    transform-origin: top center;
+  }
+}
+
+@keyframes topScaleOut {
+
+  from {
+    transform: scaleY(1);
+    transform-origin: top center;
+  }
+
+  to {
+    transform: scaleY(0);
+    transform-origin: top center;
+  }
+}
+
+@keyframes iconBarCross1 {
+  to {
+    background-color: red;
+    transform: rotate(45deg) translateY(5px) translateX(4px);
+    height: 4px;
+    width: 25px;
+  }
+}
+
+@keyframes iconBarCross2 {
+  to {
+    background-color: red;
+    height: 4px;
+    transform: rotate(-45deg) translateY(-6px) translateX(5px);
+    width: 25px;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    background-color: red;
+    transform:translateX(-1px) translateY(0px) rotate(-45deg);
+  }
+}

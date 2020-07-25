@@ -7,6 +7,7 @@ module.exports = {
     url: `http://ecasanes.github.io/`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
