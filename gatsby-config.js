@@ -4,7 +4,7 @@ module.exports = {
     description: `Portfolio page containing samples and links to my works and interests.`,
     author: `@ecasanes`,
     keywords: `Ernest, Casanes, Ernest Oliver, resume, react-developer, react, frontend, backend, fullstack, software engineer`,
-    url: `http://ecasanes.github.io/`,
+    url: `http://ecasanes.github.io/`
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -37,7 +37,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/image-ernest-portrait.jpeg`, // This path is relative to the root of the site.
+        icon: `src/images/logo-300-cropped.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
