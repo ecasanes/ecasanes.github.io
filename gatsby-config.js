@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Ernest Oliver Casanes Official Github`,
-    description: `This is my official Github page in which I will present my most recent projects and links to my resume and email. Be sure to follow me at @ecasanes on twitter.`,
+    title: `Ernest Oliver Casanes Github Page`,
+    description: `Portfolio page containing samples and links to my works and interests.`,
     author: `@ecasanes`,
     keywords: `Ernest, Casanes, Ernest Oliver, resume, react-developer, react, frontend, backend, fullstack, software engineer`,
     url: `http://ecasanes.github.io/`,
@@ -37,7 +37,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/ernest-mobile.jpeg`, // This path is relative to the root of the site.
+        icon: `src/images/image-ernest-portrait.jpeg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
